@@ -1,0 +1,59 @@
+.weather-container {
+  width: 80%;
+  height: 80vh;
+  max-height: 600px;
+  background-color: aqua;
+  margin: 10px auto;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-weight: bolder;
+}
+.search-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.weather-container input {
+  font-size: 32px;
+  padding: 4px 12px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  width: 400px;
+  border: none;
+}
+
+.weather-container button {
+  background: black;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  padding: 8px 20px;
+}
+
+.city-name p {
+  font-size: 32px;
+}
+.temp {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+.wind-humidity {
+  display: flex;
+  gap: 160px;
+  justify-content: center;
+  align-items: center;
+}
+.wind p:first-child,
+.humidity p:first-child {
+  margin-bottom: 0;
+  font-size: 32px;
+}
+.wind p:last-child,
+.humidity p:last-child {
+  margin-top: 0;
+}
